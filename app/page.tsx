@@ -33,6 +33,8 @@ export default function Page() {
             width={700}
             height={500}
             className="hidden md:block"
+            style={{ width: 'auto', height: 'auto' }}
+            priority
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image
